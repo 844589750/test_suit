@@ -1,0 +1,12 @@
+douban_city_test:
+    - city: 北京
+      start: 25
+      count: 25
+      des: 返回数据title必定包含北京
+      expect: 北京
+douban_total_test:
+    - city: 北京
+      start: 0
+      count: 5
+      des: 如果total>count-start，则返回数值应=count
+      expect: 5
